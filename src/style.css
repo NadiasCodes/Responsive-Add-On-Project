@@ -1,6 +1,10 @@
+:root {
+  --main-color: #1b1b1b;
+}
+
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #010005;
+  background-color: white;
 }
 
 header {
@@ -46,7 +50,7 @@ header a {
   background-color: white;
   text-decoration: none;
   padding: 16px 32px;
-  color: black;
+  color: var(--main-color);
   margin-top: 32px;
   display: inline-block;
 }
@@ -57,16 +61,18 @@ section {
   padding: 100px;
 }
 
-section.secondary {
-  background-color: #181525;
-}
 main {
-  background-color: #101017;
-  color: white;
+  background-color: white;
+  color: var(--main-color);
+}
+
+section.secondary {
+  background-color: #f8f8f8;
+  color: var(--main-color);
 }
 
 main h2 {
-  color: white;
+  color: #1b1b1b;
   opacity: 0.3;
   font-size: 16px;
   font-weight: 700;
@@ -102,8 +108,8 @@ main p {
 main .button {
   display: block;
 
-  background-color: white;
-  color: black;
+  border: 2px solid var(--main-color);
+  color: var(--main-color);
   line-height: 21px;
   font-size: 14px;
   font-style: normal;
@@ -113,6 +119,15 @@ main .button {
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
+  transition: all 800ms ease-in-out;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+main .button:hover {
+  border: 1px solid #b7aeae;
+  background-color: #464444;
+  color: #f8f8f8;
 }
 
 footer {
@@ -177,7 +192,7 @@ footer a {
 }
 
 .card {
-  background: #535380;
+  background: white;
 
   margin: 30px 0;
 }
