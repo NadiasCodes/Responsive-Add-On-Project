@@ -1,9 +1,18 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
 
-body{font-family: 'Poppins', sans-serif;}
+header {
+  background-image: linear-gradient rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4),
+    url("/images/header-two.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
-h1{
-
-font-size: 96px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;}
+h1 {
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
