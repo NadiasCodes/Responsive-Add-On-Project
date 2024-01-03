@@ -2,7 +2,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #010005;
 }
-
+footer{color: white;}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
     url("../images/header-two.jpg");
