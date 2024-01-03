@@ -52,13 +52,17 @@ header a {
 }
 
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
 }
 
+section.secondary {
+  background-color: #181525;
+}
 main {
   background-color: #101017;
+  color: white;
 }
 
 main h2 {
@@ -75,12 +79,40 @@ main h3 {
   font-weight: 700;
   margin: 0;
 }
+
+main h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+
+main h5 {
+  font-size: 13px;
+  font-weight: 700;
+  margin: 0;
+}
 main p {
   font-size: 16px;
 
   font-weight: 400;
 
   opacity: 0.5;
+}
+
+main .button {
+  display: block;
+
+  background-color: white;
+  color: black;
+  line-height: 21px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
 }
 
 footer {
@@ -122,6 +154,7 @@ footer a {
 }
 .img-responsive {
   max-width: 100%;
+  display: block;
 }
 
 .grid {
@@ -132,9 +165,35 @@ footer a {
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
 }
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  background: #535380;
+
+  margin: 30px 0;
+}
+
+.card p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.card-body {
+  padding: 30px;
+}
+.card-footer {
+  padding: 30px;
+}
+
 @media (max-width: 960px) {
   header {
     padding: 60px 0;
