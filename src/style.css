@@ -59,7 +59,7 @@ header a {
 }
 header a:hover {
   border: 1px solid #b7aeae;
-  background-color: #464444;
+  background-color: #000000;
   color: #f8f8f8;
 }
 section {
