@@ -170,6 +170,16 @@ footer a {
   aspect-ratio: 1/1;
 }
 
+.gallery-responsive {
+  width: 100%;
+  display: block;
+  aspect-ratio: 1/1;
+  padding: 20px;
+  transition: all 500ms ease-in-out;
+}
+.gallery-responsive:hover {
+  transform: scale(1.2);
+}
 .grid {
   display: grid;
 
@@ -215,6 +225,9 @@ footer a {
   aspect-ratio: 1/1;
 }
 
+.gallery-box {
+  margin: 30px;
+}
 @media (max-width: 960px) {
   header {
     padding: 60px 0;
@@ -235,6 +248,10 @@ footer a {
     grid-template-columns: 1fr;
     grid-gap: 32px;
   }
-  .card-header img{display:none;}
-  .embed{aspect-ratio: 16/9;}
+  .card-header img {
+    display: none;
+  }
+  .embed {
+    aspect-ratio: 16/9;
+  }
 }
